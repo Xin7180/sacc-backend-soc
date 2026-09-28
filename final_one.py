@@ -6,9 +6,8 @@ print("菜单选项: ",
         "\n3. 计算并展示流量等级",
         "\n4. 搜索指定标题或作者",
         "\n0. 退出系统")
-
+content = []
 def add_data():
-    content=[]
     bianhao =1
     while True:
         title = input("请输入内容标题: ")
